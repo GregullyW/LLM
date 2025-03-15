@@ -1,0 +1,10 @@
+Ler os capítulos 20 e 21 da sessão 3 do livro: https://web.stanford.edu/~jurafsky/slp3/
+
+Procurar por materiais no sentido: Information Extraction for rules discovery: https://dblp.uni-trier.de/search?q=information%20extraction%20for%20data%20rules
+
+Ferramenta similar ao que almejamos: https://vanna.ai/
+==> Usúario deseja fazer uma pesquisa no banco de dados, mas em linguagem normal. Um agente converte sua pergunta em uma query SQL e retorna
+o resultado do banco de dados.
+
+Ideia: Usar um modelo NLP para extrair as regras do material.
+        Treinar um modelo especialista (transfer learning) com as regras extraidas para que ele gere consultas SQL.
